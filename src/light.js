@@ -25,3 +25,4 @@ export class Light {
       this.shape.opacity(b)
     }
 }
+
