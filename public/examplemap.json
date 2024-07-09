@@ -1,0 +1,39 @@
+{
+    "name": "Example Song",
+    "description": "This is a base example song of what you can do with lighting events in Lightism.",
+    "lights": [
+        {
+            "id": "light1",
+            "config": {
+                "x": 250,
+                "y": 250,
+                "width": 5,
+                "height": 500,
+                "fill": "red",
+                "cornerRadius": 10,
+                "rotation": 0
+            },
+            "glowConfig": {
+                "blurRadius": 25
+            }
+        }
+    ],
+    "events": [
+        {
+            "id": "light2",
+            "tween": {
+                "enabled": true,
+                "duration": 1000
+            },
+            "config": {
+                "x": 250,
+                "y": 250,
+                "width": 5,
+                "height": 500,
+                "fill": "blue",
+                "cornerRadius": 10,
+                "rotation": 0
+            }
+        }
+    ]
+}
